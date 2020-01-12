@@ -1,12 +1,32 @@
+
+body {
+  background-color: #090000;
+
+}
+
+.slogan {
+  margin-top: 4%;
+  margin-left: 2%;
+  color: blue;
+}
+
+.slogan {
+   color: hsla(0, 0%, 100%, 0.7);
+   font-weight: lighter;
+   font-size: 1.6rem;
+ }
+
 .gif-container {
-  height: 720px;
-  width: 720px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .gif {
    background: url(../images/pl-moves.gif);
    height: 720px;
    width: 720px;
-   display: block;
-   margin: 48%;
+   object-fit: cover;
  }
