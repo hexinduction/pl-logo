@@ -24,9 +24,36 @@ body {
   justify-content: center;
 }
 
+.png {
+   background: url(../images/pl-static.png);
+   height: 720px;
+   width: 720px;
+   position:absolute;
+   z-index: 2;
+ }
+
+ .bg {
+   background: #000000;
+   height: 720px;
+   width: 720px;
+   position:absolute;
+   z-index: 1;
+ }
+
+
 .gif {
    background: url(../images/pl-moves.gif);
    height: 720px;
    width: 720px;
    object-fit: cover;
+   z-index: -1
+   ;
  }
+
+.png:hover {
+  opacity:0;
+}
+
+.bg:hover {
+  opacity:0;
+}
