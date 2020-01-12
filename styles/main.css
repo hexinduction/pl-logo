@@ -1,0 +1,12 @@
+.gif-container {
+  height: 720px;
+  width: 720px;
+}
+
+.gif {
+   background: url(../images/pl-moves.gif);
+   height: 720px;
+   width: 720px;
+   display: block;
+   margin: 48%;
+ }
